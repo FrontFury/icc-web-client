@@ -78,7 +78,7 @@ const Footer = () => {
       </footer>
 
 
-        <p className="w-10/12 mx-auto h-[2px]  bg-white"></p>
+        <p className="w-11/12 mx-auto h-[2px]  bg-white"></p>
 
       <div className="footer sm:footer-horizontal footer-center bg-[#00212A] font-semibold text-base-500 p-4">
         <aside>

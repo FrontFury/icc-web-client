@@ -4,41 +4,44 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-              <a>About</a>
+        <a>Home</a>
+      </li>
+      <li>
+        <a>About</a>
+      </li>
+      <li>
+        <details>
+          <summary>Department</summary>
+          <ul className="p-2">
+            <li>
+              <a>Science</a>
             </li>
             <li>
-              <details>
-                <summary>Department</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Science</a>
-                  </li>
-                  <li>
-                    <a>Business Studies</a>
-                  </li>
-                  <li>
-                    <a>Humanities</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Business Studies</a>
             </li>
             <li>
-              <a>Notice Board</a>
+              <a>Humanities</a>
             </li>
-            <li>
-              <a>Faculty</a>
-            </li>
-            <li>
-              <a>Gallery</a>
-            </li>
-            <li>
-              <a>Admission</a>
-            </li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <a>Notice Board</a>
+      </li>
+      <li>
+        <a>Faculty</a>
+      </li>
+      <li>
+        <a>Gallery</a>
+      </li>
+      <li>
+        <a>Admission</a>
+      </li>
     </>
   );
   return (
     <>
-      <div className="navbar bg-base-100 w-10/12 mx-auto shadow-sm">
+      <div className="navbar bg-base-100 w-11/12 mx-auto shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
