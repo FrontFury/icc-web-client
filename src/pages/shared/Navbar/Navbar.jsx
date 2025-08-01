@@ -1,10 +1,11 @@
+import { NavLink } from "react-router-dom";
 import logo from "../../../../src/assets/Icc-logo.png";
 
 const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <a>Home</a>
+        <NavLink>Home</NavLink>
       </li>
       <li>
         <a>About</a>

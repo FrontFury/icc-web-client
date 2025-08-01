@@ -10,7 +10,7 @@ const UnlockFuture = () => {
                 </div>
                 <div className='w-1/2 space-y-4'>
                     <h1 className='text-5xl font-bold text-[#00212A]'>Craft Your Career with Ideal Commerce College</h1>
-                    <p className='text-lg font-medium text-gray-700'>Accessible Education, Hassle-Free Admissions, and Scholarships to Fuel Your Ambition—because your goals matter. At Ideal Commerce College, we offer flexible learning paths and dedicated student support to ensure your journey is smooth and empowering. Let’s make your dreams a reality—together.</p>
+                    <p className='text-lg font-medium text-gray-700  text-justify'>Accessible Education, Hassle-Free Admissions, and Scholarships to Fuel Your Ambition—because your goals matter. At Ideal Commerce College, we offer flexible learning paths and dedicated student support to ensure your journey is smooth and empowering. Let’s make your dreams a reality—together.</p>
                     <div className='grid grid-cols-3 py-5'>
                         <div className='flex flex-col'>
                             <h2 className='text-4xl font-bold text-[#00212A]'>03</h2>
