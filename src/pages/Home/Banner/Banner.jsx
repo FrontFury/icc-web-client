@@ -3,7 +3,6 @@ import { Carousel } from 'react-responsive-carousel';
 
 import img01 from '../../../assets/Home-Banner/Banner1.gif'
 import img02 from '../../../assets/Home-Banner/Banner2.gif'
-import img03 from '../../../assets/Home-Banner/Banner3.gif'
 import img04 from '../../../assets/Home-Banner/Banner4.jpg'
 import img05 from '../../../assets/Home-Banner//Banner5.png'
 import img06 from '../../../assets/Home-Banner/Banner6.jpg'
@@ -18,9 +17,6 @@ const Banner = () => {
                 </div>
                 <div>
                     <img className="rounded-2xl max-h-[800px]" src={img02} />
-                </div>
-                <div>
-                    <img className="rounded-2xl max-h-[800px]" src={img03} />
                 </div>
                 <div>
                     <img className="rounded-2xl max-h-[800px]" src={img04} />
