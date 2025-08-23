@@ -2,6 +2,7 @@ import logo from "../../../../src/assets/Icc-logo.png";
 import { IoCall } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -82,10 +83,11 @@ const Footer = () => {
 
       <div className="footer sm:footer-horizontal footer-center bg-[#00212A] font-semibold text-base-500 p-4">
         <aside>
-          <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by
-            Estiak Ahamed Tasin
-          </p>
+          <p>Copyright © {new Date().getFullYear()} - All right reserved by  
+            <span><a
+          href="https://tasin07.vercel.app"
+          target="_blank"
+        >{" "} Estiak Ahamed Tasin</a></span></p>
         </aside>
       </div>
     </div>

@@ -4,7 +4,7 @@ import principal from "../../../assets/Esteemed Leaders/Principle.png";
 
 const EsteemedLeaders = () => {
   return (
-    <div className="bg-[#00212A] rounded-xl p-7 my-10">
+    <div className="bg-[#00212af7] rounded-xl p-7 my-10 w-11/12 mx-auto">
       <h1 className="text-5xl font-bold text-white text-center py-5">
         Meet the Visionaries Behind Our Success
       </h1>

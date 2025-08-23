@@ -3,7 +3,7 @@ import { FaArrowAltCircleLeft } from "react-icons/fa";
 
 const Mission = () => {
   return (
-    <div className="space-y-4 mb-10">
+    <div className="space-y-4 mb-10 w-11/12 mx-auto">
       <h5 className="text-5xl font-bold text-[#00212A] text-center pt-9">Our Commitment to Excellence</h5>
       <p className="w-3/5 mx-auto text-center text-lg font-medium text-[#00212A]-700 pb-8">At Ideal Commerce College, we are dedicated to maintaining the highest standards in education, leadership, and student success. Our commitment to excellence drives us to continually innovate, inspire, and deliver quality learning experiences that shape bright futures.</p>
       <div className="flex flex-row gap-4">

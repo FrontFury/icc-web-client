@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const UnlockFuture = () => {
     return (
-        <div className="py-10">
+        <div className="py-10 w-11/12 mx-auto">
             <div className='flex flex-row justify-center items-center space-x-6'>
                 <div className='w-1/2'>
                     <img className=' rounded-2xl' src={IccPhoto} alt="" />
@@ -26,7 +26,7 @@ const UnlockFuture = () => {
                         </div>
                     </div>
                     <button className='inline-flex items-center font-bold gap-3 px-5 py-2 border-2 border-[#00212A] text-[#00212A] rounded-2xl hover:bg-[#00212A] hover:text-white'>Read More <span><FaArrowRight /></span></button>
-                </div>
+                </div>         
             </div>
         </div>
     );
