@@ -4,36 +4,36 @@ import principal from "../../../assets/Esteemed Leaders/Principle.png";
 
 const EsteemedLeaders = () => {
   return (
-    <div className="bg-[#00212af7] rounded-xl p-7 my-10 w-11/12 mx-auto">
-      <h1 className="text-5xl font-bold text-white text-center py-5">
+    <div className="rounded-xl p-7 my-5 w-11/12 mx-auto">
+      <h1 className="text-5xl text-[#00212a] font-bold  text-center py-5">
         Meet the Visionaries Behind Our Success
       </h1>
-      <p className="text-lg text-white text-center mb-10 font-semibold">
+      <p className="text-lg text-gray-700 text-center mb-10 font-semibold">
         A team of passionate leaders and educators dedicated to guiding students
         toward excellence and shaping a brighter future.
       </p>
       <div className="grid grid-cols-3 w-3/4 mx-auto gap-4">
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-[#00212a] text-white shadow-sm">
           <figure>
             <img src={chairman} />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Dr. M. A. Halim Patwary</h2>
-            <p className="font-semibold">
+            <p className="font-semibold  mb-7">
               Founder & Chairman, <br />
               Ideal Commerce College
             </p>
             <div className="card-actions justify-center">
               {/* You can open the modal using document.getElementById('ID').showModal() method */}
               <button
-                className="px-5 py-2 border-2 border-[#00212A] text-[#00212A] rounded-2xl hover:bg-[#00212A] hover:text-white font-bold"
+                className="px-5 py-2 border-2 border-white text-white rounded-2xl hover:bg-white hover:text-[#00212A] font-bold"
                 onClick={() =>
                   document.getElementById("my_modal_4").showModal()
                 }
               >
                 Read Mesage
               </button>
-              <dialog id="my_modal_4" className="modal">
+              <dialog id="my_modal_4" className="modal text-gray-800">
                 <div className="modal-box w-11/12 max-w-5xl">
                   <h3 className="font-bold text-lg text-[#00212A]">
                     Message From Chairman Sir !!
@@ -90,27 +90,27 @@ const EsteemedLeaders = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-[#00212A] text-white shadow-sm">
           <figure>
             <img src={director} />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Hasina Momotaz</h2>
-            <p className="font-semibold">
+            <p className="font-semibold mb-7">
               Director, <br />
               Ideal Commerce College
             </p>
             <div className="card-actions justify-center">
               {/* You can open the modal using document.getElementById('ID').showModal() method */}
               <button
-                className="px-5 py-2 border-2 border-[#00212A] text-[#00212A] rounded-2xl hover:bg-[#00212A] hover:text-white font-bold"
+                className="px-5 py-2 border-2 border-white text-white rounded-2xl hover:bg-white hover:text-[#00212A] font-bold"
                 onClick={() =>
                   document.getElementById("my_modal_3").showModal()
                 }
               >
                 Read Message
               </button>
-              <dialog id="my_modal_3" className="modal">
+              <dialog id="my_modal_3" className="modal text-gray-700">
                 <div className="modal-box w-11/12 max-w-5xl">
                   <h3 className="font-bold text-lg">
                     Message From Director Ma'am !!
@@ -166,27 +166,27 @@ const EsteemedLeaders = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-[#00212A] text-white shadow-sm">
           <figure>
             <img src={principal} />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Professor Md. Amjad Hossain</h2>
-            <p className="font-semibold">
+            <p className="font-semibold mb-7">
               Principal, <br />
               Ideal Commerce College
             </p>
             <div className="card-actions justify-center">
               {/* You can open the modal using document.getElementById('ID').showModal() method */}
               <button
-                className="px-5 py-2 border-2 border-[#00212A] text-[#00212A] rounded-2xl hover:bg-[#00212A] hover:text-white font-bold"
+                className="px-5 py-2 border-2 border-white text-white rounded-2xl hover:bg-white hover:text-[#00212A] font-bold"
                 onClick={() =>
                   document.getElementById("my_modal_2").showModal()
                 }
               >
                 Read Message
               </button>
-              <dialog id="my_modal_2" className="modal">
+              <dialog id="my_modal_2" className="modal text-gray-700">
                 <div className="modal-box w-11/12 max-w-5xl">
                   <h3 className="font-bold text-lg">
                     Message From Principal Sir !!

@@ -4,7 +4,7 @@ import Prospectus from "./Prospectus.pdf";
 
 const FAQ = () => {
   return (
-    <div className="py-7 w-11/12 mx-auto">
+    <div className="py-7 bg-white w-full px-20 mx-auto">
       <h1 className="text-5xl font-bold text-center text-[#00212A]">Frequently Asked Questions</h1>
       <div className="flex flex-row justify-center items-center">
         <div className="w-1/3">
