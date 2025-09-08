@@ -5,7 +5,7 @@ import image03 from "../../../assets/About/4.png";
 const Description = () => {
   return (
     <div className="w-11/12 mx-auto flex flex-col justify-center items-center py-10 space-y-4">
-      <h1 className="text-4xl font-bold">
+      <h1 className="text-4xl font-bold text-[#00212A]">
         A Legacy of Excellence in Education
       </h1>
       <p className="text-base font-medium text-[#00212A]">
@@ -14,10 +14,10 @@ const Description = () => {
         </i>
       </p>
       <div className="flex flex-col justify-center items-center space-y-7 pt-14">
-        <div className="flex flex-row justify-center items-start space-x-6 w-4/5">
-          <div className="flex flex-col w-1/2 justify-center items-start space-y-6">
+        <div className="flex flex-row justify-center items-start space-x-6 w-5/6">
+          <div className="flex flex-col w-1/2 justify-center items-start space-y-3">
             <h2 className="text-3xl font-bold text-[#00212A]">
-              Foundations of Excellence
+              Foundations of Excellence :
             </h2>
             <p className="text-justify text-lg text-gray-500 font-semibold">
               Founded with the vision of promoting quality education in
@@ -39,13 +39,13 @@ const Description = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center items-start space-x-6 w-4/5">
+        <div className="flex flex-row justify-center items-start space-x-6 w-5/6">
           <div className="w-1/2">
             <img className="rounded-2xl" src={image02} alt="" />
           </div>
-          <div className="flex flex-col w-1/2 justify-center items-start space-y-6">
+          <div className="flex flex-col w-1/2 justify-center items-start space-y-3">
             <h2 className="text-3xl font-bold text-[#00212A]">
-              Roots of Success
+              Roots of Success :
             </h2>
             <p className="text-justify text-gray-500 text-lg font-semibold">
               Ideal Commerce College began its journey in 2004 at 81 Green Road,
@@ -65,9 +65,9 @@ const Description = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center items-start space-x-6 w-4/5">
-          <div className="flex flex-col w-1/2 justify-center items-start space-y-6">
-            <h2 className="text-3xl font-bold text-[#00212A]">Future Path</h2>
+        <div className="flex flex-row justify-center items-start space-x-6 w-5/6">
+          <div className="flex flex-col w-1/2 justify-center items-start space-y-3">
+            <h2 className="text-3xl font-bold text-[#00212A]">Future Path :</h2>
             <p className="text-justify text-lg text-gray-500 font-semibold">
               Today, Ideal Commerce College stands as a symbol of academic
               excellence and integrity in Bangladesh’s education sector. The
