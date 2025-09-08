@@ -5,10 +5,10 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <a>About</a>
+        <NavLink to="/about">About</NavLink>
       </li>
       <li>
         <details>
